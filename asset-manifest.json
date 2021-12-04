@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/binhdao-29/weather-app/static/css/main.68531a7e.chunk.css",
+    "main.js": "/binhdao-29/weather-app/static/js/main.0e71172d.chunk.js",
+    "main.js.map": "/binhdao-29/weather-app/static/js/main.0e71172d.chunk.js.map",
+    "runtime-main.js": "/binhdao-29/weather-app/static/js/runtime-main.a2fbd07c.js",
+    "runtime-main.js.map": "/binhdao-29/weather-app/static/js/runtime-main.a2fbd07c.js.map",
+    "static/js/2.350a1d48.chunk.js": "/binhdao-29/weather-app/static/js/2.350a1d48.chunk.js",
+    "static/js/2.350a1d48.chunk.js.map": "/binhdao-29/weather-app/static/js/2.350a1d48.chunk.js.map",
+    "static/js/3.fe064081.chunk.js": "/binhdao-29/weather-app/static/js/3.fe064081.chunk.js",
+    "static/js/3.fe064081.chunk.js.map": "/binhdao-29/weather-app/static/js/3.fe064081.chunk.js.map",
+    "index.html": "/binhdao-29/weather-app/index.html",
+    "static/css/main.68531a7e.chunk.css.map": "/binhdao-29/weather-app/static/css/main.68531a7e.chunk.css.map",
+    "static/js/2.350a1d48.chunk.js.LICENSE.txt": "/binhdao-29/weather-app/static/js/2.350a1d48.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/binhdao-29/weather-app/static/media/bg_winter.073429be.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a2fbd07c.js",
+    "static/js/2.350a1d48.chunk.js",
+    "static/css/main.68531a7e.chunk.css",
+    "static/js/main.0e71172d.chunk.js"
+  ]
+}
