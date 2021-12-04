@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+input,
+button,
+textarea {
+  border: 0;
+  outline: none;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  height: 650px;
+  margin: 30px auto;
+  color: white;
+
+  &-heading {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  &-search {
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: #a7a8b0;
+    background-color: #232426;
+
+    input {
+      background: transparent;
+      padding: 0 15px;
+      width: 100%;
+      color: inherit;
+    }
+  }
+
+  &-layout {
+    display: flex;
+    flex-direction: column;
+    background-color: #000101;
+    height: 100%;
+    padding: 50px 20px 0;
+    position: relative;
+  }
+
+  &-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    padding: 60px 15px;
+    background: rgba(0, 0, 0, 0.6) url("./assets/images/bg_sunny.jpg") no-repeat
+      center / cover;
+    color: white;
+    height: 100%;
+  }
+
+  .more-location {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 25px;
+    opacity: 0.7;
+    cursor: pointer;
+    color: white;
+  }
+
+  .location {
+    font-size: 32px;
+    font-weight: 400;
+  }
+
+  .temp {
+    font-size: 80px;
+    font-weight: 100;
+    margin-right: -30px;
+  }
+
+  .status {
+    text-transform: capitalize;
+    margin-bottom: 5px;
+  }
+
+  .temp-scope span {
+    padding: 0 5px;
+  }
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 20px;
+  background: url("./assets/images/bg_sunny.jpg") no-repeat center / cover;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  &-cold {
+    background: url("./assets/images/bg_winter.jpg") no-repeat center / cover;
+  }
+
+  &-container {
+    height: 100%;
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  &-content,
+  &-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+  }
+
+  &-name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  &-time,
+  &-temp-scope {
+    font-size: 12px;
+
+    span {
+      padding: 0 3px;
+    }
+  }
+
+  &-status {
+    font-size: 12px;
+    text-transform: capitalize;
+  }
+
+  &-temp {
+    font-size: 40px;
+    font-weight: 300;
+  }
+}
