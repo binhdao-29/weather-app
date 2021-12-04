@@ -13,7 +13,7 @@ function App() {
     <div className="app">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Main />} />
+          <Route path="/weather-app" element={<Main />} />
           <Route path="/layout" element={<Layout />} />
         </Routes>
       </BrowserRouter>

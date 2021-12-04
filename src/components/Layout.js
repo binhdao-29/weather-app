@@ -17,7 +17,7 @@ function Layout() {
 
   return (
     <div className="app-layout">
-      <Link to="/">
+      <Link to="/weather-app">
         <div className="more-location">
           <i className="fas fa-arrow-right"></i>
         </div>
